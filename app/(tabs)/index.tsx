@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import { StyleSheet, View, Text } from "react-native";
+=======
+import { StyleSheet, View, Text } from 'react-native';
+>>>>>>> c38e3354f33b476916c0ff0002ecd1fd5fe837e7
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <View style={styles.header}>
         <Text style={styles.headerText}>Home</Text>
       </View>
@@ -10,6 +15,9 @@ export default function HomeScreen() {
       <View style={styles.content}>
         <Text style={styles.name}>Keith Haven Deocariza</Text>
       </View>
+=======
+      <Text style={styles.name}>Aaron Seth Nagtalon</Text>
+>>>>>>> c38e3354f33b476916c0ff0002ecd1fd5fe837e7
     </View>
   );
 }
@@ -17,6 +25,7 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+<<<<<<< HEAD
     backgroundColor: "beige",
   },
   header: {
@@ -41,5 +50,15 @@ const styles = StyleSheet.create({
     fontSize: 35,
     fontWeight: "bold",
     color: "black",
+=======
+    backgroundColor: 'blue',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  name: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'white',
+>>>>>>> c38e3354f33b476916c0ff0002ecd1fd5fe837e7
   },
 });
